@@ -1,6 +1,14 @@
 # davviva
 
 # expt 1 linear regression
+1. import the required py package
+2. load the dataset
+3. data analysis
+4. split dataset into dependent/independent variable
+5. split data into Train/Test sets
+6. Applying the model
+7. predict the result
+8. plot the training and test results
 ```
 import numpy as np
 import pandas as pd 
@@ -24,6 +32,14 @@ plt.show()
 ```
 
 # expt 2 multiple regression
+
+1. import the required python packages
+2. load the dateset
+3. Handling categorical variables
+4. extracting dependent and independent variables
+5. split data into train / test sets
+6. applyling the model
+7. predict the result
 ```
 import pandas as pd
 import numpy as np
@@ -73,6 +89,12 @@ plt.show()
 
 
 # Expt 3 time series 
+
+1. Loading time series dataset correctly in pandas
+2. indexing in time-Series Data
+3. time-Resampling using pandas
+4. Rolling time series
+5. plotting time-series Data using Pandas
 ```
 import pandas as pd
 import numpy as np
@@ -103,3 +125,18 @@ plt.legend(loc='best')
 plt.title('Rolling Mean & Standard Deviation')
 plt.show(block=False)
 ```
+
+# expt 4 Arima models
+1. Visualize the time series data
+2. identify if the data is stationary
+3. plot the correlation and auto correlation charts
+4. construct the ARIMA Model or Seasonal ARIMA Based on the data
+
+# expt 6 Sentiment analysis 
+1. cleaning the text
+2. tokenization
+3. Enrishment - POS tagging
+4. Stopwords removal
+5. obtaining the stem words
+
+
